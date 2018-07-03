@@ -34,7 +34,7 @@ ul, li {
 }
 .tableu1 li:nth-child(2){
     grid-column: span 8;
-    grid-row: span 2;
+    grid-row: span 20;
     border-left: 5px solid black;   
     border-right: 5px solid black;   
     border-bottom: 5px solid black;   
@@ -43,6 +43,54 @@ ul, li {
     grid-column: span 2;
     grid-row: span 4;
     border-bottom: 5px solid black;   
+}
+.tableu1 li:nth-child(4){
+    grid-column: span 10;
+    grid-row: span 19;
+    border-bottom: 5px solid black;   
+}
+.tableu1 li:nth-child(5){
+    grid-column: span 2;
+    grid-row: span 12;
+    border-bottom: 5px solid black;
+}
+.tableu1 li:nth-child(6){
+    grid-column: span 2;
+    grid-row: span 4;
+    border-bottom: 5px solid black;
+}
+.tableu1 li:nth-child(7){
+    grid-column: span 1;
+    grid-row: span 20;
+    border-right: 5px solid black;
+}
+.tableu1 li:nth-child(8){
+    grid-column: span 9;
+    grid-row: span 14;
+    border-bottom: 5px solid black;
+}
+.tableu1 li:nth-child(9){
+    grid-column: span 8;
+    grid-row: span 18;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+.tableu1 li:nth-child(10){
+    grid-column: span 2;
+    grid-row: span 20;
+}
+.tableu1 li:nth-child(11){
+    grid-column: span 9;
+    grid-row: span 4;
+}
+.tableu1 li:nth-child(12){
+    grid-column: span 15;
+    grid-row: span 2;
+    border-top: 5px solid black;
+}
+.tableu1 li:nth-child(13){
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 .comp2{
@@ -94,11 +142,17 @@ ul, li {
 
 
 /*colors*/
+.black{
+    background: black;
+}
 .white{
     background: #fff;
 }
-.lightgray{
-    background: #ddd;
+.lightgray1{
+    background: #DFDBDC;
+}
+.lightgray2{
+    background: #DADAE2;
 }
 .yellow{
     background: #f0df6d;
