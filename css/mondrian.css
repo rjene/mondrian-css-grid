@@ -7,6 +7,7 @@ body {
     padding: 40px;
     font-family: 'Roboto', sans-serif; }
 
+<<<<<<< HEAD
 .wrapper { 
     display: flex; }
 
@@ -26,6 +27,13 @@ body {
 p{
     font-weight: 600;
 }
+=======
+.canvas{
+    padding: 40px; }
+
+img {
+    display: block; }
+>>>>>>> 014455e5ab7fb65314c284b7dcfe2144f632b068
 
 ul, li {
     margin: 0;
@@ -153,6 +161,7 @@ ul, li {
     grid-row: span 1;
 }
 
+<<<<<<< HEAD
 .rothko-no3{
     width: 400px;   
 }
@@ -192,6 +201,9 @@ ul, li {
 .rothko-no3 li:nth-child(7){
     grid-row: span 5;
 }
+=======
+
+>>>>>>> 014455e5ab7fb65314c284b7dcfe2144f632b068
 
 /*colors*/
 .black{
@@ -206,6 +218,7 @@ ul, li {
 .lightgray2{
     background: #DADAE2;
 }
+<<<<<<< HEAD
 .lightyellow{
     background: #FAF3A5;
 }
@@ -236,3 +249,14 @@ ul, li {
 .darkorange{
     background: #D86132;
 }
+=======
+.yellow{
+    background: #f0df6d;
+}
+.red{
+    background: #d6210e;
+}
+.blue{
+    background: #0160a0;
+}
+>>>>>>> 014455e5ab7fb65314c284b7dcfe2144f632b068
